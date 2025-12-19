@@ -11,9 +11,8 @@ import CustomCursor from './components/CustomCursor'
 function App() {
   return (
     <div className='relative gradient text-white'>
-      <ParticlesBackground/>
-      <CustomCursor/>
       <Navbar/>
+      <CustomCursor/>
       <Home/>
       <About/>
       <Skills/>
