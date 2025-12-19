@@ -26,6 +26,12 @@ const Navbar = () => {
                 About
               </a>
               <a
+                href="#skills"
+                className="text-white font-semibold
+                 hover:text-indigo-400 hover:underline hover:underline-offset-4 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">
+                Skills
+              </a>
+              <a
                 href="#projects"
                 className="text-white  font-semibold hover:text-indigo-400 hover:underline hover:underline-offset-4 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">
                 Projects

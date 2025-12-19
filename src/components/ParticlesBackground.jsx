@@ -72,7 +72,7 @@ const ParticlesBackground = () => {
     },[])
   return (
     
-    <canvas ref={canvasRef} className='w-full h-full pointer-events-none fixed top-0 left-0 z-0'/>
+    <canvas ref={canvasRef} className='w-full h-full pointer-events-none absolute top-0 left-0 z-0'/>
   )
 }
 
