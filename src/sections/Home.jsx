@@ -12,7 +12,7 @@ const socials = [
 ]
 
 const Home = () => {
-  const roles = useMemo(()=>["Software Engineer", "Full stack developer","Hopefully an AI engineer"],[])
+  const roles = useMemo(()=>["Software Engineer", "Full stack developer","AI enthusiast"],[])
 
   const [index,setIndex]= React.useState(0);
   const [subIndex,setSubIndex] = React.useState(0);
