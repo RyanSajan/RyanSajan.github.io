@@ -8,8 +8,8 @@ const Navbar = () => {
         {/* centering content in navbar */}
         <div className="relative flex items-center justify-between h-16">
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex text-white text-2xl font-semibold">
-              Ryan's Portfolio
+            <div className="flex font-bold text-2xl text-white">
+              Ryan Sajan
             </div>
           </div>
           <div className="hidden sm:block sm:ml-6">

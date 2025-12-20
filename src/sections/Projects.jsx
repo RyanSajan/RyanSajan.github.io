@@ -51,6 +51,7 @@ const Projects = () => {
       {/* Section Heading */}
       <h2 className="pb-10 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center text-transparent bg-clip-text text-8xl sm:text-5xl mb-6 bg-linear-to-r from-indigo-400 to-indigo-500 relative z-10">
         My Projects
+        <div className="w-30 h-1 bg-white mx-auto mt-4 rounded-full"></div>
       </h2>
 
       {/* Projects Grid */}

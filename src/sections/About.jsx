@@ -50,7 +50,9 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center text-transparent bg-clip-text text-8xl sm:text-5xl mb-6 bg-linear-to-r from-indigo-400 to bg-indigo-500">About Me</h2>
+          <h2 className="font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center text-transparent bg-clip-text text-8xl sm:text-5xl mb-6 bg-linear-to-r from-indigo-400 to bg-indigo-500">About Me
+            <div className="w-20 h-1 bg-white mx-auto my-2 rounded-full"></div>
+          </h2>
           <p className="text-gray-300 mb-4 text-justify font-medium">
             Hi! I’m Ryan Sajan Varughese. I am currently a student at the International Institute of Information Technology, Bangalore, where I am pursuing an Integrated M.Tech in Computer Science.
           </p>

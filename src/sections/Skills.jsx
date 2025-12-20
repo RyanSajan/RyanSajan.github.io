@@ -22,7 +22,7 @@ const Skills = () => {
   { icon: <SiMongodb />, name: "MongoDB" },
   { icon: <SiMysql />, name: "SQL" },
   ];
-  const repeat = [...skills,...skills]
+  const repeat = [...skills,...skills,...skills,...skills]
   const containerRef = useRef(null);
   const [width, setWidth] = useState(0);
 
@@ -56,9 +56,11 @@ const Skills = () => {
       </div>
       </div>
       <div>
-          <h2 className="font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center text-transparent bg-clip-text text-8xl sm:text-5xl mb-6 bg-linear-to-r from-indigo-400 to-indigo-500 relative z-10">Skills</h2>
+          <h2 className="font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center text-transparent bg-clip-text text-8xl sm:text-5xl mb-6 bg-linear-to-r from-indigo-400 to-indigo-500 relative z-10">Skills
+            <div className="w-20 h-1 bg-white mx-auto my-2 rounded-full"></div>
+          </h2>
         <div className='relative w-full overflow-hidden py-3 pb-5'>
-          <motion.div ref={containerRef} className='flex gap-10 text-5xl text-indigo-500'
+          <motion.div ref={containerRef} className='flex gap-10 text-5xl'
           animate={{ x: [0, width] }}
     transition={{ repeat: Infinity, repeatType: "loop", duration: 20, ease: "linear" }}>
             {
